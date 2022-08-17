@@ -1,0 +1,86 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    @media (max-width:767px){
+        width: 80vw;
+       
+    }
+    @media (max-width:480px){
+        width: 95vw;
+       
+    }
+}
+.form__input,
+.form__message,
+.form__btn{
+    padding: .5rem .5rem;
+    margin-top: .5rem;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Roboto Slab';
+    &:focus{
+        outline: none;
+        box-shadow: 2px 2px 19px 2px rgb(248, 248, 248);
+    }
+    &::placeholder{
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 0.8rem;
+        
+    }
+    &.valid{
+        box-shadow: 2px 2px 19px 2px rgb(25, 97, 25);
+    }
+    &.no_valid{
+        box-shadow: 2px 2px 19px 2px rgb(189, 14, 14);
+    }
+   
+}
+.form__message{
+    overflow-y: hidden;
+    height: 10rem;
+    resize: none;
+}
+
+.form__btn{
+    background-color: #f6edd8;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+    color: #2c2b2b;
+    box-shadow: 4px 3px 0px -1px rgba(66, 68, 90, 1);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    &:focus{
+        box-shadow: none;
+    }
+    &:hover,
+    :active
+     {
+       background-color: #a19f9fcc;
+       
+       transform: translate(3px, 3px);
+     }
+     @media (max-width:767px){
+        width: 100%;
+       
+    }
+}
+.contacts__title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    position: relative;
+    &::after{
+        content: '';
+        height: 2.5px;
+        width: 2.8rem;
+        position: absolute;
+        left: 30%;
+        top: 2rem;
+        background-color: #f6edd8;
+    }
+}

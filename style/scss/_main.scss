@@ -1,0 +1,75 @@
+$title_font: 'Seaside Resort NF', sans-serif;
+$contact_title: #f6edd8;
+$header_color: #78bbbb;
+
+
+.container{
+    max-width: 70%;
+    margin: auto;
+    
+}.first{
+    background-color:$header_color ;
+    transition: all 300ms ease;
+    &.dark{
+        background-color: #323536;
+    }
+}
+.section{
+    padding-top: 120px;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $header_color;
+    text-align: center;
+    
+    transition: all 300ms ease;
+    &.dark{
+        background-color: #323536;
+        
+    }
+}
+
+.main__title{
+    font-family:'Seaside Resort NF', sans-serif;
+    color: $contact_title;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 0px #030303;
+    -webkit-text-stroke: 0.2px $header_color;
+    text-transform: uppercase;
+    font-size: 4.2rem;
+    letter-spacing: 4px;
+    margin-bottom: 1.2rem;
+}
+
+.main__label {
+    align-content: center;
+    margin-bottom: 1.2rem;
+    & img{
+      width: 50%;
+}
+}
+
+
+.main__text{
+    margin-top: 1.5rem;
+    font-family: 'Bazar', sans-serif;
+    text-transform: uppercase;
+    color: #f6edd8;
+    font-size: 1.8rem;
+}
+
+.main__text-end{
+    margin-top: 0.8rem;
+    padding-bottom: 3rem;
+    font-family: 'Bazar', sans-serif;
+    text-transform: uppercase;
+    color: #f6edd8;
+    font-size: 1.2rem;
+}

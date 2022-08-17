@@ -1,0 +1,58 @@
+
+
+$size: 50px;
+
+$dark: #161d269f;
+$dark-ui: #283445;
+$light-ui: #fff;
+
+body {
+  transition: all 300ms ease;
+  
+  &.dark {
+    background-color: $dark;
+  }
+}
+
+.toggle {
+  position: absolute;
+  top: 1.2rem; 
+  left: 4rem;
+  width: 50px;
+  
+  .mask {
+    width: $size; 
+    height: $size;
+    overflow: hidden;
+    
+    .icon-wrap {
+      padding-bottom: $size/2;
+      transition: all 300ms 400ms ease;
+      
+      &:last-child {
+        transform: translatey(-$size);
+      }
+    }
+    
+    .icon {
+      width: $size/2; height: $size/2;
+      border-radius: 50%;
+    }
+    
+    .active {
+      transition-delay: 100ms;
+      
+      &:first-child {
+        transform: translatey($size);
+      }
+      
+      &:last-child {
+        transform: translatey(0);
+      }
+    }
+    
+    
+  }
+  
+  
+}

@@ -1,0 +1,165 @@
+[
+    {
+        "id":"1",
+        "image":"../../img/images/proj3.jpg",
+        "params":{
+            "design":"природа",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"design"
+        },
+       
+        "desc":"дизайн"
+       
+    },
+    {
+        "id":"2",
+        "image":"../../img/images/poj2.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"logo"
+        },
+        
+        "desc":"лого"
+    },
+    {
+        "id":"3",
+        "image":"../../img/images/proj4.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"logo"
+        },
+        
+        "desc":"лого"
+
+    },
+    {
+        "id":"4",
+        "image":"../../img/images/poj2.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+             "category":"photography"
+        },
+       
+        "desc":"фото"
+    },
+    {
+        "id":"5",
+        "image":"../../img/images/proj3.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"poster"
+        },
+        
+        "desc":"постер"
+    },
+    {
+        "id":"6",
+        "image":"../../img/images/proj4.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"resources"
+    
+        },
+        
+        "desc":"ресурс"
+    },
+    {
+        "id":"7",
+        "design":"",
+        "image":"../../img/images/poj2.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"retro"
+            
+        },
+        
+        "desc":"ретро"
+    },
+    {
+        "id":"8",
+        "design":"",
+        "image":"../../img/images/proj4.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"videos"
+        },
+        
+        "desc":"видео"
+
+    },
+    {
+        "id":"9",
+        "design":"",
+        "image":"../../img/images/proj4.jpg",
+        "params":{
+            "design":"",
+            "logo": "logo",
+            "photography": "photo",
+            "poster":"poster",
+            "resources": "resoures",
+            "retro": false,
+            "tShirts": false,
+            "videos": true,
+            "category":"design"
+    
+        },
+       
+        "desc":"дизайн"
+
+    }
+]
