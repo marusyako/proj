@@ -2,9 +2,13 @@
 
 
 .second{
-    background-color: #e2ddcd;
+    background-image: url(../../img/images/About\ section\ BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     transition: all 500ms ease;
     &.dark{
+        background-image: none;
         background-color: #413f3b;
     }
 }

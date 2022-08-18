@@ -8,13 +8,17 @@ body{
 
 .header__inner{
     width: 100%;
-    background-color: #78bbbb; 
+    background-image: url(../../img/images/Slider\ section\ BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-bottom: 1.3px solid #4f51546b;
     position: fixed;
     top: 0;
     z-index: 10;
     transition: all 300ms ease;
     &.dark{
+        background-image: none;
         background-color: #555353; 
         box-shadow: inset -3px -25px 23px 1px rgba(164, 173, 173, 0.671);
         
