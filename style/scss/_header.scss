@@ -135,7 +135,7 @@ body{
 
 
 
-.progress-container {
+.progress__container {
     position: absolute;
     border-radius: 5px;
     bottom: 0;
@@ -148,7 +148,7 @@ body{
         display: none;
     }
   }
-  .progress-bar {
+  .progress__bar {
     height: 5px;
     background: #d17723;
     width: 0%;

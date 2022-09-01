@@ -199,7 +199,7 @@ img {
   text-shadow: 1px 1px 7px #4f5154;
 }
 
-.progress-container {
+.progress__container {
   position: absolute;
   border-radius: 5px;
   bottom: 0;
@@ -210,12 +210,12 @@ img {
   background: #ccc;
 }
 @media (max-width: 767px) {
-  .progress-container {
+  .progress__container {
     display: none;
   }
 }
 
-.progress-bar {
+.progress__bar {
   height: 5px;
   background: #d17723;
   width: 0%;
